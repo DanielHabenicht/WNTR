@@ -22,6 +22,7 @@ All data in WNTR is stored in the following SI (International System) units:
 * Mass injection = :math:`kg/s`
 * Volume = :math:`m^3`
 * Flow = :math:`m^3/s`
+* If Roughness has a unit it is supplied in :math:`m`
 
 When setting up analysis in WNTR, all input values should be specified in SI units. 
 All simulation results are also stored in SI units and can be converted to other units if desired, 
