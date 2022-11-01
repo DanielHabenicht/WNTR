@@ -566,6 +566,8 @@ class WaterNetworkModel(AbstractModel):
             Patterns **will not** be resampled to match these values, it is assumed that 
             patterns created using Pattern(...) or Pattern.binary_pattern(...) object used the same 
             pattern timestep value as the global value, and they will be treated accordingly.
+            This means that a discrepancy between `pattern.time_options.pattern_timestep` and the 
+            model timings can lead to the pattern not being effectively applied (zero-demand). 
 
 
         Parameters
