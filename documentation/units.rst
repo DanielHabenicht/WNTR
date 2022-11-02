@@ -24,22 +24,22 @@ All data in WNTR is stored in the following SI (International System) units:
 * Flow = :math:`m^3/s`
 * If Roughness has a unit it is supplied in :math:`m`
 
-When setting up analysis in WNTR, all input values should be specified in SI units. 
-All simulation results are also stored in SI units and can be converted to other units if desired, 
-for instance by using the SymPy Python package [JCMG11]_.  
+When setting up analysis in WNTR, all input values should be specified in SI units.
+All simulation results are also stored in SI units and can be converted to other units if desired,
+for instance by using the SymPy Python package [JCMG11]_.
 
 EPANET unit conventions
 ------------------------
 
-WNTR can generate water network models from EPANET INP files using all EPANET unit conventions. 
-When using an EPANET INP file to generate a water network model, 
+WNTR can generate water network models from EPANET INP files using all EPANET unit conventions.
+When using an EPANET INP file to generate a water network model,
 WNTR converts model parameters to SI units using the
-**Units** and **Quality** options of the EPANET INP file.  
+**Units** and **Quality** options of the EPANET INP file.
 These options define the mass and flow units used in the file.
 Some units also depend on the equation used
-for pipe roughness headloss and on the reaction order specified. 
+for pipe roughness headloss and on the reaction order specified.
 
-For reference, :numref:`table-epanet-units` includes EPANET unit conventions [Ross00]_.  
+For reference, :numref:`table-epanet-units` includes EPANET unit conventions [Ross00]_.
 
 .. _table-epanet-units:
 .. table:: EPANET INP File Unit Conventions
@@ -101,4 +101,3 @@ For reference, :numref:`table-epanet-units` includes EPANET unit conventions [Ro
    +----------------------+-------------------------------------+------------------------------------+
    | Water age            |   hours                             | hours                              |
    +----------------------+-------------------------------------+------------------------------------+
-  
