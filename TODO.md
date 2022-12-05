@@ -1,0 +1,1 @@
+- add link to each class to refer to what it is: https://epanet22.readthedocs.io/en/latest/3_network_model.html
