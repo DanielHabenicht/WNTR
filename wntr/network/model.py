@@ -535,7 +535,7 @@ class WaterNetworkModel(AbstractModel):
             Valve initial setting.
             Pressure setting for PRV, PSV, or PBV. 
             Flow setting for FCV. 
-            Loss coefficient for TCV.
+            Loss coefficient for TCV (``0`` to ``1``).
             Name of headloss curve for GPV.
         initial_status: string or LinkStatus
             Valve initial status. Options are 'OPEN',  'CLOSED', or 'ACTIVE'.
